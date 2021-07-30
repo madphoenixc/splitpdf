@@ -1,0 +1,11 @@
+.clickable {
+  cursor: pointer;
+}
+
+canvas {
+  margin: 10px;
+}
+
+canvas.selected {
+  border: 3px solid red;
+}
