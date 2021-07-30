@@ -9,3 +9,20 @@ canvas {
 canvas.selected {
   border: 3px solid red;
 }
+.btn{
+  width: 200px;
+  float: center;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 20px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+}
+.btn:hover {
+  box-shadow: inset 5px 5px 10px #b5b5b5, 
+             inset -5px -5px 10px #ffffff;
+ }
+body{
+  background-color:  #ecf0f3;
+}
